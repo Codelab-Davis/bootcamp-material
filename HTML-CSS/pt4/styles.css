@@ -1,0 +1,23 @@
+.imaclass { 
+    color: red;
+}
+
+#imanid {
+    color: green;
+}
+
+.divClass { 
+    background-color: red;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 900;
+    border: 2px solid orange;
+    padding: 64px;
+    margin: 64px;
+} 
+
+@media (min-width: 600px) {
+    .divClass { 
+        background-color: green;
+    }
+}
